@@ -41,12 +41,6 @@ class MyHomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // This method is rerun every time setState is called, for instance as done
-    // by the _incrementCounter method above.
-    //
-    // The Flutter framework has been optimized to make rerunning build methods
-    // fast, so that you can just rebuild anything that needs updating rather
-    // than having to individually change instances of widgets.
     return Scaffold(
       appBar: AppBar(
         // TRY THIS: Try changing the color here to a specific color (to
@@ -81,10 +75,10 @@ class MyHomePage extends StatelessWidget {
               child: const Text(
                 'Welcome to our store!',
                 style: TextStyle(color: Colors.black87, fontWeight: FontWeight.bold, fontSize: 30),
-              ),
+              ), // Customized Text
             ),
-            Image.asset("assets/store.png"),
-            Image.asset("assets/price.png"),
+            Image.asset("assets/store.png"), // image 1
+            Image.asset("assets/price.png"), // image 2
           ],
         ),
       ),
